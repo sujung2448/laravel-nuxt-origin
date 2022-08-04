@@ -8,7 +8,7 @@
       </template>
       <template v-else>
         <router-link :to="{ name: 'login' }">
-          {{ $t('login') }}
+          {{ $t('login') }}df
         </router-link>
         <router-link :to="{ name: 'register' }">
           {{ $t('register') }}
